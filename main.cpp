@@ -45,7 +45,7 @@ int main(int argc, char **argv){
       }
       std::cout << std::flush;
     }
-    MPI_Barrier(MPI_COMM_WORLD);
+    MPI_CHK(MPI_Barrier(MPI_COMM_WORLD));
 
   }
 
